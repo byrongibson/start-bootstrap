@@ -14,21 +14,15 @@ Starter build system template for [HTML5Boilerplate][1] and [Bootstrap 3][2].  B
   - `src/scripts/plugins.js`
 
 5.  build unimified test version:
-
     `grunt test`
-
     `grunt connect:test`
 
 6.  build minified production version:
-
     `grunt dist`
-
     `grunt connect:dist`
 
 7.  build minified and gziped production version:
-
     `grunt gzip`
-
     `grunt connect:dist`
 
 [1]:http://html5boilerplate.com/
