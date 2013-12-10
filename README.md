@@ -12,7 +12,7 @@ Starter build system template for [HTML5Boilerplate][1] and [Bootstrap 3][2].  B
     - `src/scripts/plugins.js` (optional, not currently used)
     - `src/scripts/main.js`
 
-5.  build unimified test version:
+5.  build unminified test version:
     `grunt test`
     `grunt connect:test`
 
