@@ -5,14 +5,30 @@ Starter build system template for [HTML5Boilerplate][1] and [Bootstrap 3][2].  B
 1.  clone repo
 2.  `npm install`
 3.  `bower install`
-4.  build unimified test version:
+4.  customize site with the following source files:
+
+  - `src/html/partials/*.html`
+  - `src/styles/less/main.less`
+  - `src/styles/less/theme.less`
+  - `src/scripts/main.js`
+  - `src/scripts/plugins.js`
+
+5.  build unimified test version:
+
   `grunt test`
+
   `grunt connect:test`
-5.  build minified production version:
+
+6.  build minified production version:
+
   `grunt dist`
+
   `grunt connect:dist`
-6.  build minified and gziped production version:
+
+7.  build minified and gziped production version:
+
   `grunt gzip`
+
   `grunt connect:dist`
 
 [1]:http://html5boilerplate.com/
