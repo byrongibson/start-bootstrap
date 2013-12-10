@@ -175,8 +175,8 @@ module.exports = function (grunt) {
           ,report: 'min'
         },
         files: {
-          'build/styles/main.min.css': 'src/styles/less/main.less'
-          ,'build/styles/theme.min.css': 'src/styles/less/theme.less'
+          'build/styles/main.css': 'src/styles/less/main.less'
+          ,'build/styles/theme.css': 'src/styles/less/theme.less'
         }
       },
       gzip: {
@@ -186,8 +186,8 @@ module.exports = function (grunt) {
           ,report: 'gzip'
         },
         files: {
-          'build/styles/main.min.css.gz': 'src/styles/less/main.less'
-          ,'build/styles/theme.min.css.gz': 'src/styles/less/theme.less'
+          'build/styles/main.css.gz': 'src/styles/less/main.less'
+          ,'build/styles/theme.css.gz': 'src/styles/less/theme.less'
         }
       }
     },
