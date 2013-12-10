@@ -25,9 +25,10 @@ Starter build system template for [HTML5Boilerplate][1] and [Bootstrap 3][2].  B
     `grunt connect:dist`
 
 8.  update H5BP, Bootstrap, JQuery:
-    - `bower update X` (update a specific component)
-    - `bower update` (update all components)
-    - build system takes care of the rest
+    1. `bower list` (show all bower components)
+    2. `bower update X` (update a specific component)
+    3. `bower update` (update all components)
+    4. build system takes care of the rest, automatically copies bootstrap, h5bp, and jquery into build/test/dist targets
 
 [1]:http://html5boilerplate.com/
 [2]:http://getbootstrap.com/
