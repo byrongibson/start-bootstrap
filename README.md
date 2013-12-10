@@ -24,6 +24,11 @@ Starter build system template for [HTML5Boilerplate][1] and [Bootstrap 3][2].  B
     `grunt gzip`
     `grunt connect:dist`
 
+8.  update H5BP, Bootstrap, JQuery:
+    - `bower update X` (update a specific component)
+    - `bower update` (update all components)
+    - build system takes care of the rest
+
 [1]:http://html5boilerplate.com/
 [2]:http://getbootstrap.com/
 [3]:http://gruntjs.com/
