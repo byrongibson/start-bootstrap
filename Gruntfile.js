@@ -69,8 +69,8 @@ module.exports = function (grunt) {
     concat: {
       options: {
         stripBanners: true
-      },
-      bootstrap: {
+      }
+      ,bootstrap: {
         src: [
           'bower_components/bootstrap/js/transition.js'
           ,'bower_components/bootstrap/js/alert.js'
@@ -86,15 +86,15 @@ module.exports = function (grunt) {
           ,'bower_components/bootstrap/js/affix.js'
         ],
         dest: 'build/scripts/lib/bootstrap.js'
-      },
-      main: {
+      }
+      ,main: {
         src: [
           'src/scripts/plugins.js'
           ,'src/scripts/main.js'
         ],
         dest: 'build/scripts/main.js'
-      },
-      html_index: {
+      }
+      ,html_index: {
         src: [
           'src/html/partials/_head.html'
           ,'src/html/partials/_header.html'
@@ -103,8 +103,8 @@ module.exports = function (grunt) {
           ,'src/html/partials/_foot.html'
         ],
         dest: 'build/index.html'
-      },
-      html_error: {
+      }
+      ,html_error: {
         src: [
           'src/html/partials/_head.html'
           ,'src/html/partials/_header-error.html'
@@ -114,6 +114,17 @@ module.exports = function (grunt) {
         ],
         dest: 'build/error.html'
       }
+      /* use template below for additional pages
+      ,html_example: {
+        src: [
+          'src/html/partials/_head.html'
+          ,'src/html/partials/_header.html'
+          ,'src/html/partials/_example.html'
+          ,'src/html/partials/_footer.html'
+          ,'src/html/partials/_foot.html'
+        ],
+        dest: 'build/example.html'
+      }*/
     },
 
     htmlmin: { 
