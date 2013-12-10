@@ -7,11 +7,11 @@ Starter build system template for [HTML5Boilerplate][1] and [Bootstrap 3][2].  B
 3.  `bower install`
 4.  customize site with the following source files:
 
-  - `src/html/partials/*.html`
-  - `src/styles/less/main.less`
-  - `src/styles/less/theme.less`
-  - `src/scripts/main.js`
-  - `src/scripts/plugins.js`
+    - `src/html/partials/*.html`
+    - `src/styles/less/main.less`
+    - `src/styles/less/theme.less`
+    - `src/scripts/main.js`
+    - `src/scripts/plugins.js`
 
 5.  build unimified test version:
     `grunt test`
