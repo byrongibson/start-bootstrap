@@ -8,7 +8,7 @@ Starter build system template for [HTML5Boilerplate][1] and [Bootstrap 3][2].  B
 4.  customize site with the following source files:
     - `src/html/partials/*.html`
     - `src/styles/less/main.less`
-    - `src/styles/less/theme.less`
+    - `src/styles/less/theme.less` (optional, not currently used)
     - `src/scripts/main.js`
     - `src/scripts/plugins.js`
 
